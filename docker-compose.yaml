@@ -5,4 +5,5 @@ services:
     build: .
     ports:
       - 8099:8090
-  
+    volumes:
+      - .:/code
